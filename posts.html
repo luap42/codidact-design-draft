@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Codidact</title>
+    <link rel="stylesheet" href="node_modules/co-design/dist/codidact.css">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header--container container">
+        <div class="header--brand">
+          <a href="#!" class="header--instance-name">Codidact</a>
+          <a href="index.html" class="header--site-name">Meta</a>
+        </div>
+
+        <div class="header--menu">
+          <a href="posts.html" class="header--item is-active">posts</a>
+          <a href="users.html" class="header--item">users</a>
+          <a href="tags.html" class="header--item">tags</a>
+          <a href="help.html" class="header--item">help</a>
+          <div class="header--separator"></div>
+          <a href="qa.html" class="header--item is-active">q&amp;a</a>
+          <a href="wiki.html" class="header--item">wiki</a>
+          <a href="blog.html" class="header--item">blog</a>
+
+          <!--<div class="header--item is-complex is-visible-on-mobile">
+            <a href="register.html" class="button is-filled">Sign up</a>
+            <a href="login.html" class="button is-outlined">Sign in</a>
+          </div>-->
+
+          <a class="header--item is-mobile-menu is-complex" href="#!">
+            <span class="header--menu-bars">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+
+          <a class="header--item is-visible-on-mobile is-complex" href="...">
+            <img src="profilepic.jpg" class="header--item-image" alt="profile image" title="profile image" />
+            <span class="header--alert">1</span>
+            <span class="header--trust-level">5</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="container has-padding-4">
+      <div class="grid has-margin-4">
+        <div class="grid--cell is-flexible">
+          <h1 class="has-margin-0">Q&amp;A posts</h1>
+        </div>
+        <div class="grid--cell">
+          <a href="newpost.html" class="button is-medium has-margin-4 is-filled">New question</a>
+        </div>
+      </div>
+      <div class="button-list is-gutterless has-margin-top-4 has-float-right">
+        <button class="button is-muted is-outlined is-active">best</button>
+        <button class="button is-muted is-outlined">oldest</button>
+        <button class="button is-muted is-outlined">active</button>
+      </div>
+      <div class="has-clear-clear"></div>
+
+
+      <div class="item-list">
+        <div class="item-list--item">
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              23
+            </div>
+            <div class="item-list--number-label">answers</div>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              120
+            </div>
+            <div class="item-list--number-label">votes</div>
+          </div>
+          <div class="item-list--text-value is-primary">
+            <div><a href="question.html" class="has-font-size-larger">What is Codidact?</a></div>
+            <div class="has-padding-top-2">
+              <a href="tag-page.html" class="badge is-tag">support</a>
+              <a href="tag-page.html" class="badge is-tag">codidact</a>
+            </div>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number-label">last active</div>
+            <div class="item-list--number">
+              1d
+            </div>
+          </div>
+        </div>
+        <div class="item-list--item is-highlighted">
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              23
+            </div>
+            <div class="item-list--number-label">answers</div>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              120
+            </div>
+            <div class="item-list--number-label">votes</div>
+          </div>
+          <div class="item-list--text-value is-primary">
+            <div><a href="question.html" class="has-font-size-larger">Welcome to Codidact!</a></div>
+            <div class="has-padding-top-2">
+              <a href="tag-page.html" class="badge is-tag">announcement</a>
+              <a href="tag-page.html" class="badge is-tag">codidact</a>
+            </div>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number-label">last active</div>
+            <div class="item-list--number">
+              Dec '18
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
