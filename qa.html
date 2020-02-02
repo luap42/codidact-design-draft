@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Codidact</title>
+    <link rel="stylesheet" href="node_modules/co-design/dist/codidact.css">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header--container container">
+        <div class="header--brand">
+          <a href="#!" class="header--instance-name">Codidact</a>
+          <a href="index.html" class="header--site-name">Meta</a>
+        </div>
+
+        <div class="header--menu">
+          <a href="posts.html" class="header--item">posts</a>
+          <a href="users.html" class="header--item">users</a>
+          <a href="tags.html" class="header--item">tags</a>
+          <a href="help.html" class="header--item">help</a>
+          <div class="header--separator"></div>
+          <a href="qa.html" class="header--item is-active">q&amp;a</a>
+          <a href="wiki.html" class="header--item">wiki</a>
+          <a href="blog.html" class="header--item">blog</a>
+
+          <!--<div class="header--item is-complex is-visible-on-mobile">
+            <a href="register.html" class="button is-filled">Sign up</a>
+            <a href="login.html" class="button is-outlined">Sign in</a>
+          </div>-->
+
+          <a class="header--item is-mobile-menu is-complex" href="#!">
+            <span class="header--menu-bars">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+
+          <a class="header--item is-visible-on-mobile is-complex" href="...">
+            <img src="profilepic.jpg" class="header--item-image" alt="profile image" title="profile image" />
+            <span class="header--alert">1</span>
+            <span class="header--trust-level">5</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="container has-padding-4">
+      <h1 class="has-margin-0">Q&amp;A</h1>
+      <p class="is-lead">Q&amp;A is central to Meta Codidact. If you have any question related to the usage of the Codidact software or the community policies, feel free to ask it here.</p>
+
+      <h2>Questions</h2>
+
+      <p>Everything starts with questions. Here's a list of our top questions. Take a bit of time and click through them to find out what we see as good questions.</p>
+
+
+      <div class="item-list has-padding-16">
+        <div class="item-list--item">
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              23
+            </div>
+            <div class="item-list--number-label">answers</div>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              120
+            </div>
+            <div class="item-list--number-label">votes</div>
+          </div>
+          <div class="item-list--text-value is-primary">
+            <div><a href="question.html" class="has-font-size-larger">What is Codidact?</a></div>
+            <div class="has-padding-top-2">
+              <a href="tag-page.html" class="badge is-tag">support</a>
+              <a href="tag-page.html" class="badge is-tag">codidact</a>
+            </div>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number-label">last active</div>
+            <div class="item-list--number">
+              1d
+            </div>
+          </div>
+        </div>
+        <div class="item-list--item is-highlighted">
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              23
+            </div>
+            <div class="item-list--number-label">answers</div>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              120
+            </div>
+            <div class="item-list--number-label">votes</div>
+          </div>
+          <div class="item-list--text-value is-primary">
+            <div><a href="question.html" class="has-font-size-larger">Welcome to Codidact!</a></div>
+            <div class="has-padding-top-2">
+              <a href="tag-page.html" class="badge is-tag">announcement</a>
+              <a href="tag-page.html" class="badge is-tag">codidact</a>
+            </div>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number-label">last active</div>
+            <div class="item-list--number">
+              Dec '18
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <p>This is a community about Meta, so we expect questions to be about <strong>the usage of the Codidact software or the community policies</strong>. So ask ...</p>
+      <ul>
+        <li>how to use the Codidact software.</li>
+        <li>whether some behavior is acceptable here.</li>
+        <li>what the community policies for the whole Codidact network should be.</li>
+      </ul>
+      <p>Some questions are not a good fit for the Q&amp;A platform. Please avoid questions, that are ...</p>
+      <ul>
+        <li>vague or open-ended and cannot be answered in a reasonably long answer.</li>
+        <li>not about the Codidact software or community.</li>
+        <li>feature requests or bug reports. Use the <a href="https://forum.codidact.org">Codidact forum</a> or <a href="https://github.com/codidact/core/issues">GitHub issues</a> for them.</li>
+      </ul>
+      <p>Questions can be voted upon and &ndash; when they don't fulfill our quality requirements &ndash; closed until you fix them. You can always edit your own questions and once you gain some experience also other people's.</p>
+
+      <h2>Answers</h2>
+      <p>Answers are the exciting part. Good answers can be interesting, they teach you something or show you a new way to look at it. Sometimes they are also a bit fun.</p>
+      <p>Good answers <strong>explain and show why they are correct</strong> rather than just solving the problem of the asker. They are written for the future.</p>
+      <p>You want to start answering questions? Here are some unanswered questions you might find interesting</p>
+
+      <div class="item-list has-padding-16">
+        <div class="item-list--item">
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              23
+            </div>
+            <div class="item-list--number-label">answers</div>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              120
+            </div>
+            <div class="item-list--number-label">votes</div>
+          </div>
+          <div class="item-list--text-value is-primary">
+            <div><a href="question.html" class="has-font-size-larger">What is Codidact?</a></div>
+            <div class="has-padding-top-2">
+              <a href="tag-page.html" class="badge is-tag">support</a>
+              <a href="tag-page.html" class="badge is-tag">codidact</a>
+            </div>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number-label">last active</div>
+            <div class="item-list--number">
+              1d
+            </div>
+          </div>
+        </div>
+        <div class="item-list--item is-highlighted">
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              23
+            </div>
+            <div class="item-list--number-label">answers</div>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number">
+              120
+            </div>
+            <div class="item-list--number-label">votes</div>
+          </div>
+          <div class="item-list--text-value is-primary">
+            <div><a href="question.html" class="has-font-size-larger">Welcome to Codidact!</a></div>
+            <div class="has-padding-top-2">
+              <a href="tag-page.html" class="badge is-tag">announcement</a>
+              <a href="tag-page.html" class="badge is-tag">codidact</a>
+            </div>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--image-value">
+            <a href="user-other.html"><img src="profilepic.jpg" alt="placeholder image"></a>
+          </div>
+          <div class="item-list--number-value">
+            <div class="item-list--number-label">last active</div>
+            <div class="item-list--number">
+              Dec '18
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p>Answers can be voted upon and &ndash; when they don't fulfill our quality requirements &ndash; deleted until you fix them. You can always edit your own answers and once you gain some experience also other people's.</p>
+
+      <h2>Comments</h2>
+      <p>Comments are supplemental. Therefore they are only shown to you, when you click the "see X comments" button. You can use them to ask for clarification from the author or to give feedback. You can also use them to discuss parts of an answer, that you think are wrong.</p>
+
+      <h2>Behavior and Moderation</h2>
+      <p>We expect every user to behave nicely and to adhere to our <a href="#!">Code of Conduct</a>.</p>
+      <p>If you see something that's unfriendly, you can flag it for moderator attention. Our community-elected moderator team will take a look at it and act accordingly.</p>
+      <p>Most moderation activity &ndash; especially regarding post quality &ndash; will be done by normal community members, though. Everyone starts with a trust level of 0 and as they provide useful content, they progress up to trust level 6. Each level grants more moderation powers and reduces some security limits. So get started and write a post to earn your first trust level.</p>
+    </main>
+  </body>
+</html>
