@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Codidact</title>
+    <link rel="stylesheet" href="node_modules/co-design/dist/codidact.css">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body class="is-auth-screen">
+    <header class="header">
+      <div class="header--container container">
+        <div class="header--brand">
+          <a href="#!" class="header--instance-name">Codidact</a>
+          <a href="index.html" class="header--site-name">Meta</a>
+        </div>
+
+        <div class="header--menu">
+          <a href="posts.html" class="header--item">posts</a>
+          <a href="users.html" class="header--item">users</a>
+          <a href="tags.html" class="header--item">tags</a>
+          <a href="help.html" class="header--item">help</a>
+          <div class="header--separator"></div>
+          <a href="qa.html" class="header--item">q&amp;a</a>
+          <a href="wiki.html" class="header--item">wiki</a>
+          <a href="blog.html" class="header--item">blog</a>
+
+          <div class="header--item is-complex is-visible-on-mobile">
+            <a href="register.html" class="button is-filled">Sign up</a>
+            <a href="login.html" class="button is-outlined">Sign in</a>
+          </div>
+
+          <a class="header--item is-mobile-menu is-complex" href="#!">
+            <span class="header--menu-bars">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+
+          <!--<a class="header--item is-visible-on-mobile is-complex" href="...">
+            <img src="profilepic.jpg" class="header--item-image" alt="profile image" title="profile image" />
+            <span class="header--alert">1</span>
+            <span class="header--trust-level">5</span>
+          </a>-->
+        </div>
+      </div>
+    </header>
+    <main class="container has-padding-2 is-auth-container">
+      <div class="has-padding-2">
+        <h1>Sign in</h1>
+        <p>Welcome back! You can sign into your account here. No account, yet? <a href="register.html">Sign up instead.</a></p>
+      </div>
+
+      <div class="widget">
+        <div class="widget--body">
+          <div class="has-padding-1">
+            <label class="form-element" for="email">E-Mail Address</label>
+            <input type="email" class="form-element" id="email">
+          </div>
+
+          <div class="has-padding-1">
+            <label class="form-element" for="pass">Password</label>
+            <input class="form-element" id="pass" type="password">
+          </div>
+        </div>
+        <div class="widget--footer">
+          <a href="index.html" class="button is-filled">Sign in</a>
+          <a href="pw-reset.html" class="button is-outlined">Forgot your password?</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

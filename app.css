@@ -1,0 +1,6 @@
+body.is-auth-screen {
+  background-color: #f0f0f0;
+}
+.container.is-auth-container {
+  max-width: 500px;
+}
